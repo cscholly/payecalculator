@@ -32,14 +32,14 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7"
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3MLJP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PCMSX7');</script>
+})(window,document,'script','dataLayer','GTM-N3MLJP');</script>
 <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Important -</strong> This site is currently under construction - Do not rely on any calculations, yet!
+                <strong>Note -</strong> We are busy building over 65 tax tables, so come back soon!
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -67,32 +67,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="panel-body">
                             <p>PAYE is the acronym for Pay-As-You-Earn. In essence it is the tax required to be deducted by the employer from the employee's renumeration.</p>
-                            <p>Revenue is raised for government by requiring certain businesses to register and to charge VAT on the taxable supplies of goods and services.</p>
-                            <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS definition</a>
+                            <p>Companies or employers who are registered (or required to register) with SARS for PAYE or SDL purposes, are also required to register for UIF purposes.</p>
+                            <a href="http://www.sars.gov.za/TaxTypes/PAYE/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS definition</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Who should register for PAYE?</h3>
+                            <h3 class="panel-title">Who should know about this?</h3>
                         </div>
                         <div class="panel-body">
-                            <p>Any person that does business, may register his or her entity for VAT. Person in this case is not only limited to companies, but can be individuals, partnerships, companies and many other.</p>
-                            <p>If your turnover exceeds R1 million per consecutive 12 month period, it becomes mandatory to register.</p>
-                            <a href="http://www.sars.gov.za/ClientSegments/Businesses/My-Bus-and-Tax/Pages/Register-and-Deregister-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">More on registering for VAT</a>
+                            <p>The amounts deducted or withheld must be paid by the employer to SARS on a monthly basis, by completing the Monthly Employer Declaration (EMP201).</p>
+                            <p>This is an official declaration whereby the employer indicates the total payment owed to SARS for PAYE, UIF and SDL.</p>
+                            <a href="http://www.sars.gov.za/TaxTypes/PAYE/Pages/Completing-the-EMP201.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">More on the Employer Declaration (EMP210)</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Preparing for PAYE</h3>
+                            <h3 class="panel-title">How and when should PAYE be paid?</h3>
                         </div>
                         <div class="panel-body">
-                            <p>Once you or your trading entity is registered for VAT, you must adhere to certain duties and take responsibility for, including VAT on your products and services.</p>
-                            <p>Charge for and collect VAT as well as maintaining records related to all transactions.</p>
-                            <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/Getting-ready-for-VAT.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Getting ready for VAT</a>
+                            <p>It must be paid within seven days after the end of the month during which the amount was deducted. If the last day for payment falls on a public holiday or weekend, the payment must be made on the last business day before the public holiday or weekend.</p>
+                            <a href="https://secure.sarsefiling.co.za/!Generator/WebWiz.aspx?BusinessProcessCode=BPLogin&ProcessCode=Login&ActionCode=Load" class="btn btn-primary btn-sm" role="button" target="_blank">Link to eFiling</a>
                         </div>
                     </div>
                 </div>
@@ -130,19 +129,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
             </div>
             <ul class="list-group">
-                <li class="list-group-item">Guide - VAT Vendors information <em>(aimed at all registered VAT entities)</em>
-                    <a href="downloads/LAPD-VAT-G02%20-%20VAT%20404%20Guide%20for%20Vendors%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                <li class="list-group-item">A guide to managing your SARS employer account
+                    <a href="http://www.sars.gov.za/AllDocs/OpsDocs/Guides/EMP-GEN-01-G03%20-%20A%20guide%20to%20managing%20your%20SARS%20employer%20account%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
-                <li class="list-group-item">Guide - Using VAT eFiling
+                <!-- <li class="list-group-item">Guide - Using VAT eFiling
                     <a href="downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
                 <li class="list-group-item">Form - Application for Registration for Value Added Tax
                     <a href="downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
-                </li>
+                </li> -->
             </ul>
             <div class="pull-right">
-                <a href="calculate-paye.php" class="btn btn-primary btn-sm" role="button">PAYE calculator</a>
-                <a href="http://www.sars.gov.za/Pages/Forms.aspx?pageid=C62;" class="btn btn-primary btn-sm" role="button" target="_blank">For more guides and forms visit SARS.org.za</a>
+                <a href="http://www.payecalculator.co.za/calculate-paye.php" class="btn btn-primary btn-sm" role="button">PAYE calculator</a>
+                <a href="http://www.sars.gov.za" class="btn btn-primary btn-sm" role="button" target="_blank">For more tax information visit SARS.org.za</a>
             </div>
         </div>
     </div>
