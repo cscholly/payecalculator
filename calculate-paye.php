@@ -51,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>PAYE Calculator - Tax Year 2016</h2>
+                <h2>PAYE Calculator - Tax Year 2016 - under 65 years of age only - no UIF</h2>
             </div>
 
             <div class="row">
@@ -92,6 +92,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <td class="text-right"><span id=annualIncome>0.00</span></td>
                                 </tr>
                                 <tr>
+                                    <td>Annual Tax</td>
+                                    <td class="text-right"><span id=annualTax>0.00</span></td>
+                                </tr>
+                                <tr>
                                     <td>Monthly Taxable Income</td>
                                     <td class="text-right"><span id=monthlyInc>0.00</span></td>
                                 </tr>
@@ -100,12 +104,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <td class="text-right"><span id=monthlyTax>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>Annual Tax</td>
-                                    <td class="text-right"><span id=annualTax>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Annual Difference</strong></td>
-                                    <td class="text-right"><strong><span id=annualDif>0.00</span></strong></td>
+                                    <td><strong>Netto Income</strong> (after PAYE deducted)</td>
+                                    <td class="text-right"><strong><span id=nettoIncome>0.00</span></strong></td>
                                 </tr>
                             </table>
                         </div>

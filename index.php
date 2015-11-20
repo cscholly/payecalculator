@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for adding VAT to an amount.">
     <meta name="author" content="">
-    <title>South African PAYE Calculator | Calculating PAYE</title>
+    <title>South African PAYE Calculator | Calculating EMPLOYEES’ TAX</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -63,10 +63,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">PAYE explained</h3>
+                            <h3 class="panel-title">Employees’ Tax explained</h3>
                         </div>
                         <div class="panel-body">
-                            <p>VAT is the acronym for Value-added Tax. In essence it is the indirect tax on the consumption of goods and services in the South African economy.</p>
+                            <p>PAYE is the acronym for Pay-As-You-Earn. In essence it is the tax required to be deducted by the employer from the employee's renumeration.</p>
                             <p>Revenue is raised for government by requiring certain businesses to register and to charge VAT on the taxable supplies of goods and services.</p>
                             <a href="http://www.sars.gov.za/TaxTypes/VAT/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS definition</a>
                         </div>
