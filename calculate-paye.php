@@ -6,9 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for adding VAT to an amount.">
+    <meta name="description" content="Simple calculator for calculating PAYE to an amount.">
     <meta name="author" content="">
-    <title>South African VAT Calculator | Adding VAT</title>
+    <title>South African PAYE Calculator | PAYE on Monthly Taxable Income</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -32,7 +32,7 @@
 </head>
 
 <body>
-   <!-- Google Tag Manager -->
+   <!-- Google Tag Manager - ->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PCMSX7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -51,14 +51,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>A basic calculator for adding South African VAT</h2>
+                <h2>PAYE Calculator - Tax Year 2016</h2>
             </div>
 
             <div class="row">
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Enter amount</h3>
+                            <h3 class="panel-title">Monthly Income</h3>
                         </div>
                         <div class="panel-body">
                             <form id="calcForm">
@@ -66,10 +66,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <div class="form-group" style="margin-bottom: 0px;">
                                         <div class="input-group">
                                             <span class="input-group-addon">R</span>
-                                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="input">
+                                            <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="monthlyIncome">
                                         </div>
+                                        <!-- <div class="input-group">
+                                            <label><input type="radio" checked="checked" class="form-control" id="age" value="under65">
+                                            Person is younger than 65
+                                            </label>
+                                        </div> -->
                                         <div style="margin-top:10px">
-                                            <button type="submit" class="btn btn-default" onclick="addVAT(); return false;">Add VAT</button>
+                                            <button type="submit" class="btn btn-default" onclick="payeCalc(); return false;">Calculate Tax</button>
                                             <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
                                         </div>
                                     </div>
@@ -83,16 +88,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="panel-body">
                             <table class="table" style="margin-bottom: 5px;">
                                 <tr>
-                                    <td>Amount excluding VAT</td>
-                                    <td class="text-right"><span id=exclude_vat>0.00</span></td>
+                                    <td>Annual Income Equivelant</td>
+                                    <td class="text-right"><span id=annualIncome>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td>VAT portion (14%)</td>
-                                    <td class="text-right"><span id=vat>0.00</span></td>
+                                    <td>Monthly Taxable Income</td>
+                                    <td class="text-right"><span id=monthlyInc>0.00</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Amount including VAT</strong></td>
-                                    <td class="text-right"><strong><span id=include_vat>0.00</span></strong></td>
+                                    <td>Monthly Tax</td>
+                                    <td class="text-right"><span id=monthlyTax>0.00</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Annual Tax</td>
+                                    <td class="text-right"><span id=annualTax>0.00</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Annual Difference</strong></td>
+                                    <td class="text-right"><strong><span id=annualDif>0.00</span></strong></td>
                                 </tr>
                             </table>
                         </div>
