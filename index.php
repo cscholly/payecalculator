@@ -9,10 +9,10 @@
     <meta name="description" content="Simple calculator for adding VAT to an amount.">
     <meta name="author" content="">
     <title>South African PAYE Calculator | Calculating EMPLOYEES’ TAX</title>
-    <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
     <style>
         body {
@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Note -</strong> We are busy building over 65 tax tables, so come back soon!
+                <strong>Note -</strong> We are busy building the "Over 65 tax tables", so come back soon!
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -157,8 +157,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557eccdd09b75a91" async="async"></script>
 
 </body>
 
