@@ -90,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <h3 class="panel-title">How and when should PAYE be paid?</h3>
                         </div>
                         <div class="panel-body">
-                            <p>It must be paid within seven days after the end of the month during which the amount was deducted. If the last day for payment falls on a public holiday or weekend, the payment must be made on the last business day before the public holiday or weekend.</p>
+                            <p>It must be paid within seven days after the end of the month during which the amount was deducted.</p><p> If the last day for payment falls on a public holiday or weekend, the payment must be made on the last business day before the public holiday or weekend.</p>
                             <a href="https://secure.sarsefiling.co.za/!Generator/WebWiz.aspx?BusinessProcessCode=BPLogin&ProcessCode=Login&ActionCode=Load" class="btn btn-primary btn-sm" role="button" target="_blank">Link to eFiling</a>
                         </div>
                     </div>
@@ -132,10 +132,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li class="list-group-item">A guide to managing your SARS employer account
                     <a href="http://www.sars.gov.za/AllDocs/OpsDocs/Guides/EMP-GEN-01-G03%20-%20A%20guide%20to%20managing%20your%20SARS%20employer%20account%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
-                <!-- <li class="list-group-item">Guide - Using VAT eFiling
-                    <a href="downloads/GEN-ELEC-04-G01%20-%20Guide%20for%20Value%20Added%20Tax%20via%20eFiling%20-%20External%20Guide.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
+                <li class="list-group-item">Registering for Employees’ Tax  (PAYE) EMP101e form
+                    <a href="http://www.sars.gov.za/AllDocs/OpsDocs/SARSForms/EMP101e%20-%20Application%20for%20Registration%20PAYE%20SDL%20UIF%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li>
-                <li class="list-group-item">Form - Application for Registration for Value Added Tax
+                <!-- <li class="list-group-item">Form - Application for Registration for Value Added Tax
                     <a href="downloads/VAT101%20-%20Application%20for%20Registration%20for%20Value%20Added%20Tax%20-%20External%20Form.pdf" class="pull-right" target="_blank"> <span class="glyphicon glyphicon-save" aria-hidden="true"></span></a>
                 </li> -->
             </ul>
