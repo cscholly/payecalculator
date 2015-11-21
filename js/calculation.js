@@ -1,5 +1,4 @@
-//get value from user and calc PAYE
-function payeCalc() {
+//This JS file will get values from user and calc PAYE
     //set variables
     var monthlyIncome = 0;
     var annualIncome = 0; //formatted annual income
@@ -7,7 +6,7 @@ function payeCalc() {
     var monthlyTax = 0;
     var annualTax = 0;
     var nettoIncome = 0;
-    var annualRebatender65 = 13257;
+    var annualRebate = 0;
     var UIF = 0;
     
         //tax bands
@@ -30,29 +29,51 @@ function payeCalc() {
     var level6_top = 99999999999;
     var level6_tax = 0.41;
     var UIFcap = 148.72;
-    
+
+        //rebates
+    var annualRebatenderunder = 13257;
+    var annualRebatenderbetween = (annualRebatenderunder + 71407);
+    var annualRebatenderover = (annualRebatenderbetween + 2466);
+
+    //trigger payeCalc from 3 age brackets
+var chosenAge = document.getElementsByName('age');
+for (var i = chosenAge.length; i--;) {
+    chosenAge[i].onchange = function() {
+        alert(this.value);
+        payeCalc();
+    }
+}
+
+function payeCalc() {
     //get form values
     monthlyIncome = document.getElementById('monthlyIncome').value;
-    var age = document.getElementsByName('age');
     
+    if (chosenAge == "1"){
+        annualRebate = annualRebatenderunder;
+    } else if (chosenAge == "2"){
+        annualRebate = annualRebatenderbetween;
+    } else if (chosenAge == "3") {
+        annualRebate = annualRebatenderover;
+    }
+
     //basic salary calculations
     monthlyIncome = parseFloat(monthlyIncome);
-    annualIncome = currencyFormat(parseFloat(Math.round(monthlyIncome * 12)));
+    annualIncome = parseFloat(Math.round(monthlyIncome * 12));
     annualInc = parseFloat(Math.round(monthlyIncome * 12));
     
     //calc paye
     if (annualInc > level1_bottom && annualInc < level1_top){
-    annualTax = ((annualInc * level1_tax) - annualRebatender65);
+    annualTax = ((annualInc * level1_tax) - annualRebate);
 }   else if (annualInc > level2_bottom && annualInc < level2_top){
-    annualTax = (((level1_top * level1_tax) + ((annualInc-level1_top) * level2_tax)) - annualRebatender65);
+    annualTax = (((level1_top * level1_tax) + ((annualInc-level1_top) * level2_tax)) - annualRebate);
 }   else if (annualInc > level3_bottom && annualInc < level3_top){
-    annualTax = (((level1_top * level1_tax)+((level2_top-level1_top) * level2_tax)+((annualInc-level2_top) * level3_tax)) - annualRebatender65);
+    annualTax = (((level1_top * level1_tax)+((level2_top-level1_top) * level2_tax)+((annualInc-level2_top) * level3_tax)) - annualRebate);
 }   else if (annualInc > level4_bottom && annualInc < level4_top){
-    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) +((annualInc-level3_top) * level4_tax)) - annualRebatender65);
+    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) +((annualInc-level3_top) * level4_tax)) - annualRebate);
 }   else if (annualInc > level5_bottom && annualInc < level5_top){
-    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) + ((level4_top - level3_top) * level4_tax) + ((annualInc-level4_top) * level5_tax)) - annualRebatender65);
+    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) + ((level4_top - level3_top) * level4_tax) + ((annualInc-level4_top) * level5_tax)) - annualRebate);
 }   else if (annualInc > level6_bottom){
-    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) + ((level4_top - level3_top) * level4_tax) + ((level5_top - level4_top) * level5_tax) + ((annualInc-level5_top) * level6_tax)) - annualRebatender65);
+    annualTax = (((level1_top * level1_tax)+((level2_top - level1_top) * level2_tax) + ((level3_top - level2_top) * level3_tax) + ((level4_top - level3_top) * level4_tax) + ((level5_top - level4_top) * level5_tax) + ((annualInc-level5_top) * level6_tax)) - annualRebate);
 }
     //calc UIF
     UIF = (monthlyIncome * 0.01);
@@ -66,7 +87,7 @@ function payeCalc() {
 
     
     //write results
-    document.getElementById('annualIncome').innerHTML = annualIncome;
+    document.getElementById('annualIncome').innerHTML = currencyFormat(annualIncome);
     document.getElementById('monthlyInc').innerHTML = currencyFormat(monthlyIncome);
     document.getElementById('monthlyTax').innerHTML = currencyFormat(monthlyTax);
     document.getElementById('annualTax').innerHTML = currencyFormat(annualTax);
