@@ -53,6 +53,9 @@ function payeCalc() {
     
     //calc monthly tax
     monthlyTax = (annualTax / 12);
+    if (monthlyTax < 0) monthlyTax = 0;
+    if (annualTax < 0) annualTax = 0;
+
     
     //write results
     document.getElementById('annualIncome').innerHTML = annualIncome;
@@ -68,10 +71,10 @@ function payeCalc() {
 // Reset form
 function resetCalc() {
     document.getElementById("calcForm").reset();
-    document.getElementById('exclude_vat').innerHTML = exvat_converted;
-    document.getElementById('vat').innerHTML = vatamount;
-    document.getElementById('include_vat').innerHTML = totalamount;
-    document.getElementById('include_vat').innerHTML = inclvat_converted;
+    document.getElementById('annualIncome').innerHTML = 0;
+    document.getElementById('monthlyInc').innerHTML = 0;
+    document.getElementById('monthlyTax').innerHTML = 0;
+    document.getElementById('annualTax').innerHTML = 0;
 
 }
 
