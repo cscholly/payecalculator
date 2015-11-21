@@ -13,7 +13,7 @@
         <li <?php if ($page=='index.php' ) { ?>class="active"
             <?php } ?>><a href="index.php">Helpful PAYE information</a></li>
         <li <?php if ($page=='calculate-paye.php' ) { ?>class="active"
-            <?php } ?>><a href="calculate-paye.php">Calculate PAYE <span class="label label-info">Try it!</a></li>
-        <li><a href="mailto:webmaster@payecalculator.co.za">Email feedback and suggestions</a></li>
+            <?php } ?>><a href="calculate-paye.php">Calculate PAYE <span class="label label-info">Updated!</a></li>
+        <li><a href="mailto:webmaster@payecalculator.co.za">Any suggestions?</a></li>
     </ul>
 </div>

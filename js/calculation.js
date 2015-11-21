@@ -31,8 +31,11 @@ function payeCalc() {
     var level6_tax = 0.41;
     var UIFcap = 148.72;
     
+    //get form values
+    monthlyIncome = document.getElementById('monthlyIncome').value;
+    var age = document.getElementsByName('age');
+    
     //basic salary calculations
-    var monthlyIncome = document.getElementById('monthlyIncome').value;
     monthlyIncome = parseFloat(monthlyIncome);
     annualIncome = currencyFormat(parseFloat(Math.round(monthlyIncome * 12)));
     annualInc = parseFloat(Math.round(monthlyIncome * 12));

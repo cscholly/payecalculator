@@ -32,15 +32,27 @@
 </head>
 
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3MLJP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N3MLJP');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3MLJP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N3MLJP');
+    </script>
+    <!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
@@ -51,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>PAYE Calculator - Tax Year 2016 - under 65 years of age only - including UIF</h2>
+                <h2>PAYE Calculator Tax Year 2016 - including UIF</h2>
             </div>
 
             <div class="row">
@@ -64,15 +76,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <form id="calcForm">
                                 <div id="calcbox">
                                     <div class="form-group" style="margin-bottom: 0px;">
+                                        <div class="btn-group" data-toggle="buttons" style="margin-bottom:10px;">
+                                            <label class="btn btn-default">
+                                                <input type="radio" data-toggle="button" name="age" value="under65"> Younger than 65 years
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="age" value="between6575"> Between 65 and 75 years
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="age" value="over75"> Older than 75 years
+                                            </label>
+                                        </div>
                                         <div class="input-group">
                                             <span class="input-group-addon">R</span>
                                             <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="monthlyIncome">
                                         </div>
-                                        <!-- <div class="input-group">
-                                            <label><input type="radio" checked="checked" class="form-control" id="age" value="under65">
-                                            Person is younger than 65
-                                            </label>
-                                        </div> -->
                                         <div style="margin-top:10px">
                                             <button type="submit" class="btn btn-default" onclick="payeCalc(); return false;">Calculate Tax</button>
                                             <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
@@ -133,13 +151,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- VAT - Mobi -->
-                    <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-0590369945323371"
-                     data-ad-slot="9694476574"
-                     data-ad-format="auto"></ins>
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0590369945323371" data-ad-slot="9694476574" data-ad-format="auto"></ins>
                     <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
             </div>
@@ -151,7 +165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- footer start -->
     <footer class="footer">
         <div class="container">
-            <?php include ('includes/footer.php'); ?>
+            <?php include ( 'includes/footer.php'); ?>
         </div>
     </footer>
     <!-- footer end -->
