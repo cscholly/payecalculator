@@ -48,13 +48,15 @@ function payeCalc() {
     //get form values
     monthlyIncome = document.getElementById('monthlyIncome').value;
     
-    if (chosenAge == "1"){
+    annualRebate = annualRebatenderunder;
+    
+ /*   if (chosenAge == 1){
         annualRebate = annualRebatenderunder;
-    } else if (chosenAge == "2"){
+    } else if (chosenAge == 2){
         annualRebate = annualRebatenderbetween;
-    } else if (chosenAge == "3") {
+    } else if (chosenAge == 3) {
         annualRebate = annualRebatenderover;
-    }
+    }*/
 
     //basic salary calculations
     monthlyIncome = parseFloat(monthlyIncome);
@@ -79,13 +81,11 @@ function payeCalc() {
     UIF = (monthlyIncome * 0.01);
     if (UIF > UIFcap) UIF = UIFcap;
 
-        
     //calc monthly tax
     monthlyTax = (annualTax / 12);
     if (monthlyTax < 0) monthlyTax = 0;
     if (annualTax < 0) annualTax = 0;
 
-    
     //write results
     document.getElementById('annualIncome').innerHTML = currencyFormat(annualIncome);
     document.getElementById('monthlyInc').innerHTML = currencyFormat(monthlyIncome);
