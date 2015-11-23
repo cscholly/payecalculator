@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>New -</strong> You can now choose tax calculation by age bracket!
+                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="http://www.payecalculator.co.za/calculate-paye.php" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
