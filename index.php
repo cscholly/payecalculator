@@ -53,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>Note -</strong> We are busy building the "Over 65 tax tables", so come back soon!
+                <strong>New -</strong> You can now choose tax calculation by age bracket!
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
