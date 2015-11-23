@@ -39,16 +39,22 @@
 var chosenAge = document.getElementsByName('age');
 for (var i = chosenAge.length; i--;) {
     chosenAge[i].onchange = function() {
-        alert(this.value);
-        payeCalc();
+        if(this.value == 1){
+            theVal = annualRebatenderunder;
+        }else if(this.value == 2){
+            theVal = annualRebatenderbetween;
+        }else if(this.value == 3){
+            theVal = annualRebatenderover;
+        }
+        payeCalc(theVal);
     }
 }
 
-function payeCalc() {
+function payeCalc(val) {
     //get form values
     monthlyIncome = document.getElementById('monthlyIncome').value;
     
-    annualRebate = annualRebatenderunder;
+    annualRebate = val;
     
  /*   if (chosenAge == 1){
         annualRebate = annualRebatenderunder;
