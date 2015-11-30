@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for adding VAT to an amount.">
+    <meta name="description" content="Simple calculator for calculating PAYE in South Africa.">
     <meta name="author" content="">
     <title>South African PAYE Calculator | Calculating EMPLOYEES’ TAX</title>
     <link rel="shortcut icon" href="" />
@@ -100,11 +100,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- PAYE - Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="9333130177"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
             <!-- Adsense Desktop End -->
@@ -112,21 +115,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="panel panel-default hidden-md hidden-lg">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Mobi -->
-                    <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-0590369945323371"
-                     data-ad-slot="9694476574"
-                     data-ad-format="auto"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- PAYE - Mobi -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="1809863375"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
             <!-- Adsense Mobi End -->
 
             <div class="page-header">
-                <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
+                <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1><div class="addthis_native_toolbox"></div>
             </div>
             <ul class="list-group">
                 <li class="list-group-item">A guide to managing your SARS employer account
