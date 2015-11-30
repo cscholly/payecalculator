@@ -64,6 +64,7 @@
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
                 <h2>PAYE Calculator Tax Year 2016 - including UIF</h2>
+                <div class="addthis_native_toolbox"></div>
             </div>
 
             <div class="row">

@@ -58,6 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- News and Updates pop-up end -->
             <div class="page-header">
                 <h1>Helpful information <small>What is South African PAYE all about?</small></h1>
+                <div class="addthis_native_toolbox"></div>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -129,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <!-- Adsense Mobi End -->
 
             <div class="page-header">
-                <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1><div class="addthis_native_toolbox"></div>
+                <h1>Downloadable Files <small>Guides and documents supplied by SARS</small></h1>
             </div>
             <ul class="list-group">
                 <li class="list-group-item">A guide to managing your SARS employer account
