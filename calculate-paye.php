@@ -64,6 +64,7 @@
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
                 <h2>PAYE Calculator Tax Year 2016 - including UIF</h2>
+                <div class="addthis_native_toolbox"></div>
             </div>
 
             <div class="row">
@@ -139,11 +140,14 @@
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Leaderboard - Home -->
-                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0590369945323371" data-ad-slot="4659918578"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- PAYE - Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="9333130177"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
             <!-- Adsense Desktop End -->
@@ -151,11 +155,15 @@
             <div class="panel panel-default hidden-md hidden-lg">
                 <div class="panel-body text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- VAT - Mobi -->
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0590369945323371" data-ad-slot="9694476574" data-ad-format="auto"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+<!-- PAYE - Mobi -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0590369945323371"
+     data-ad-slot="1809863375"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 </div>
             </div>
             <!-- Adsense Mobi End -->
