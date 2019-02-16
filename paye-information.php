@@ -105,7 +105,8 @@
                 </li> -->
             </ul>
             <div class="pull-right">
-                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator</a>
+                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator <span class="label label-info">Updated for 2019</a></a>
+                <a href="https://www.vatcalculator.co.za" class="btn btn-primary btn-sm" role="button">VAT Calculator <span class="label label-info">Try me</a></a>
                 <a href="http://www.sars.gov.za" class="btn btn-primary btn-sm" role="button" target="_blank">For more tax information visit SARS.org.za</a>
             </div>
         </div>
