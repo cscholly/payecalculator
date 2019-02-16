@@ -35,8 +35,8 @@
 
         //rebates
     var annualRebatenderunder = 14067;
-    var annualRebatenderbetween = (annualRebatenderunder + 71407);
-    var annualRebatenderover = (annualRebatenderbetween + 2466);
+    var annualRebatenderbetween = (annualRebatenderunder + 7713);
+    var annualRebatenderover = (annualRebatenderbetween + 2574);
 
     //trigger payeCalc from 3 age brackets
 var chosenAge = document.getElementsByName('age');
