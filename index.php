@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Simple calculator for calculating PAYE for 2019.">
     <meta name="author" content="">
+    <meta name="google-site-verification" content="RBrMROwoP7JneDH9EtyuWKXqwccR4mIyX1AsNT-2Kng" />
     <title>South African PAYE Calculator | PAYE on Monthly Taxable Income</title>
     <link rel="shortcut icon" href="" />
     <link rel="stylesheet" href="css/bootstrap.css" />
