@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for calculating PAYE to an amount.">
+    <meta name="description" content="Simple calculator for calculating PAYE for 2019.">
     <meta name="author" content="">
     <title>South African PAYE Calculator | PAYE on Monthly Taxable Income</title>
     <link rel="shortcut icon" href="" />
@@ -26,8 +26,7 @@
     <div id=wrap>
         <div class="container">
             <div class="jumbotron" style="margin-top:30px">
-                <h2>PAYE Calculator Tax Year 2016 - including UIF</h2>
-                <div class="addthis_native_toolbox"></div>
+                <h2>PAYE Calculator Tax Year 2019 - including UIF</h2>
             </div>
 
             <div class="row">
