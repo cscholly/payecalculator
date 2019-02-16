@@ -28,7 +28,7 @@
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="http://www.payecalculator.co.za" class="alert-link">Try it now!</a>
+                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="https://www.payecalculator.co.za" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
@@ -105,7 +105,7 @@
                 </li> -->
             </ul>
             <div class="pull-right">
-                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator</a>
+                <a href="https://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator</a>
                 <a href="http://www.sars.gov.za" class="btn btn-primary btn-sm" role="button" target="_blank">For more tax information visit SARS.org.za</a>
             </div>
         </div>
