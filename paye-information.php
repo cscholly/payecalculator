@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for calculating PAYE to an amount.">
+    <meta name="description" content="Simple calculator for calculating PAYE for 2019.">
     <meta name="author" content="">
     <title>South African PAYE Calculator | PAYE on Monthly Taxable Income</title>
     <link rel="shortcut icon" href="" />
@@ -28,7 +28,7 @@
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="http://www.payecalculator.co.za/calculate-paye.php" class="alert-link">Try it now!</a>
+                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="http://www.payecalculator.co.za" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">

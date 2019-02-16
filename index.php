@@ -30,114 +30,97 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Monthly Income</h3>
-                        </div>
-                        <div class="panel-body">
-                            <form id="calcForm">
-                                <div id="calcbox">
-                                    <div class="form-group" style="margin-bottom: 0px;">
-                                       <div class="input-group" style="margin-bottom:10px;">
-                                            <span class="input-group-addon">R</span>
-                                            <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="monthlyIncome">
-                                        </div>
-                                        <div class="btn-group" data-toggle="buttons">
-                                            <label class="btn btn-default">
-                                                <input type="radio" data-toggle="button" name="age" value="1"> Younger than 65 years
-                                            </label>
-                                            <label class="btn btn-default">
-                                                <input type="radio" name="age" value="2"> Between 65 and 75 years
-                                            </label>
-                                            <label class="btn btn-default">
-                                                <input type="radio" name="age" value="3"> Older than 75 years
-                                            </label>
-                                        </div>
+              <div class="col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Monthly Income</h3>
+                  </div>
+                  <div class="panel-body">
+                    <form id="calcForm">
+                      <div id="calcbox">
+                        <div class="form-group" style="margin-bottom: 0px;">
+                          <div class="input-group" style="margin-bottom:10px;">
+                            <span class="input-group-addon">R</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest rand)" id="monthlyIncome">
+                          </div>
+                          <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default">
+                              <input type="radio" data-toggle="button" name="age" value="1"> Younger than 65 years
+                            </label>
+                            <label class="btn btn-default">
+                              <input type="radio" name="age" value="2"> Between 65 and 75 years
+                            </label>
+                            <label class="btn btn-default">
+                              <input type="radio" name="age" value="3"> Older than 75 years
+                            </label>
+                          </div>
 
-                                        <div style="margin-top:10px">
-<!--                                            <button type="submit" class="btn btn-default" onclick="payeCalc(); return false;">Calculate Tax</button>-->
-                                            <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+                          <div style="margin-top:10px">
+                            <!--                                            <button type="submit" class="btn btn-default" onclick="payeCalc(); return false;">Calculate Tax</button>-->
+                            <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
+                          </div>
                         </div>
-                    </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <div id="addResult" class="panel panel-default">
-                        <div class="panel-body">
-                            <table class="table" style="margin-bottom: 5px;">
-                                <tr>
-                                    <td>Annual Income Equivelant</td>
-                                    <td class="text-right"><span id=annualIncome>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td>Annual Tax</td>
-                                    <td class="text-right"><span id=annualTax>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td>Monthly Taxable Income</td>
-                                    <td class="text-right"><span id=monthlyInc>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td>Monthly PAYE</td>
-                                    <td class="text-right"><span id=monthlyTax>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td>Monthly UIF</td>
-                                    <td class="text-right"><span id=UIF>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Netto Income</strong> (after PAYE and UIF is deducted)</td>
-                                    <td class="text-right"><strong><span id=nettoIncome>0.00</span></strong></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-6">
+                <div id="addResult" class="panel panel-default">
+                  <div class="panel-body">
+                    <table class="table" style="margin-bottom: 5px;">
+                      <tr>
+                        <td>Annual Income Equivelant</td>
+                        <td class="text-right"><span id=annualIncome>0.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Annual Tax</td>
+                        <td class="text-right"><span id=annualTax>0.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Monthly Taxable Income</td>
+                        <td class="text-right"><span id=monthlyInc>0.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Monthly PAYE</td>
+                        <td class="text-right"><span id=monthlyTax>0.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>Monthly UIF</td>
+                        <td class="text-right"><span id=UIF>0.00</span></td>
+                      </tr>
+                      <tr>
+                        <td><strong>Netto Income</strong> (after PAYE and UIF is deducted)</td>
+                        <td class="text-right"><strong><span id=nettoIncome>0.00</span></strong></td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
+              </div>
             </div>
             <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
-                <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PAYE - Leaderboard -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-0590369945323371"
-     data-ad-slot="9333130177"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                </div>
+              <div class="panel-body text-center">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- PAYE - Responsive -->
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-0590369945323371"
+                data-ad-slot="8869708491"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
             </div>
-            <!-- Adsense Desktop End -->
-            <!-- Adsense Mobi Start -->
-            <div class="panel panel-default hidden-md hidden-lg">
-                <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PAYE - Mobi -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0590369945323371"
-     data-ad-slot="1809863375"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                </div>
-            </div>
-            <!-- Adsense Mobi End -->
-        </div>
-    </div>
     <!-- wrap end -->
 
     <!-- footer start -->
     <footer class="footer">
-        <div class="container">
-            <?php include ( 'includes/footer.php'); ?>
-        </div>
+      <div class="container">
+        <?php include ( 'includes/footer.php'); ?>
+      </div>
     </footer>
     <!-- footer end -->
 
@@ -151,9 +134,9 @@
 
 <!-- Initialize Popover -->
 <script>
-    $(document).ready(function() {
-        $('[data-toggle="popover"]').popover();
-    });
+$(document).ready(function() {
+  $('[data-toggle="popover"]').popover();
+});
 </script>
 
 </html>
