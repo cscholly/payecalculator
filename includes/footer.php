@@ -1,7 +1,3 @@
 <?php
-echo '<p class="text-muted">All rights reserved | Copyright 2015 | <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Important information" data-placement="top" data-content="The information and calculations obtained from this website is used at your own risk.">Disclaimer</a></p>';
+echo '<p class="text-muted">All Rights Reserved | Copyright &copy; 2015 - 2019 | <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Important information" data-placement="top" data-content="There are a host of possible deductions that a taxpayer may qualify for and are beyond the scope of the simple calculation steps above which are intended as a guide only. The calculation methods above may not apply to all circumstances, for example where an employee is in non-standard employ or has received a tax-directive from SARS. Lastly, scenarios such as pro-rata tax calculations where an employee has only been employed for part of the month have also not been factored in above to keep the general steps as simple as possible. We recommend that you consult with a tax practitioner who can verify that PAYE is being calculated accurately and take into consideration the employee’s unique circumstances.">Disclaimer</a></p>';
 ?>
-
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-557eccdd09b75a91" async="async"></script>
