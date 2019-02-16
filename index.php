@@ -114,6 +114,7 @@
                 </script>
               </div>
             </div>
+          </div>
     <!-- wrap end -->
 
     <!-- footer start -->
