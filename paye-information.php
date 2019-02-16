@@ -6,41 +6,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Simple calculator for calculating PAYE in South Africa.">
+    <meta name="description" content="Simple calculator for calculating PAYE to an amount.">
     <meta name="author" content="">
-    <title>South African PAYE Calculator | Calculating EMPLOYEES’ TAX</title>
+    <title>South African PAYE Calculator | PAYE on Monthly Taxable Income</title>
     <link rel="shortcut icon" href="" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.css" />
     <link rel="stylesheet" href="css/custom.css" />
 
-    <style>
-        body {
-            padding-top: 50px;
-        }
+    <?php include ( 'includes/header.php'); ?>
 
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
-
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3MLJP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N3MLJP');</script>
-<!-- End Google Tag Manager -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <?php include ( 'includes/menu.php'); ?>
