@@ -13,7 +13,7 @@
         <li <?php if ($page=='index.php' ) { ?>class="active"
         <?php } ?>><a href="index.php">PAYE Calculator<span class="label label-info">2019</a></a></li>
         <li <?php if ($page=='paye-information.php' ) { ?>class="active"
-        <?php } ?>><a href="paye-information.php">Information About PAYE</li>
+        <?php } ?>><a href="paye-information.php">PAYE Info</li>
         <li><a href="mailto:help@payecalculator.co.za">Got a suggestion?</a></li>
     </ul>
 </div>
