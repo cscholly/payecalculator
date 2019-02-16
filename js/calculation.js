@@ -59,13 +59,13 @@ function payeCalc(val) {
 
     annualRebate = val;
 
- /*   if (chosenAge == 1){
+    if (chosenAge == 1){
         annualRebate = annualRebatenderunder;
     } else if (chosenAge == 2){
         annualRebate = annualRebatenderbetween;
     } else if (chosenAge == 3) {
         annualRebate = annualRebatenderover;
-    }*/
+    }
 
     //basic salary calculations
     monthlyIncome = parseFloat(monthlyIncome);
