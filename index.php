@@ -97,7 +97,6 @@
                   </div>
                 </div>
               </div>
-            </div>
             <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
               <div class="panel-body text-center">
