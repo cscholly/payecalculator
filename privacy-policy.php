@@ -26,7 +26,7 @@
     <div id=wrap>
         <div class="container">
             <div class="page-header">
-                <h1>Helpful information <small>What is South African PAYE all about?</small></h1>
+                <h1>Privacy Policy <small>and Website Terms</small></h1>
             </div>
             <div class="row">
                 <div class="col-md-12">
