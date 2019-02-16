@@ -75,31 +75,17 @@
              <!-- Adsense Desktop Start -->
             <div class="panel panel-default hidden-xs hidden-sm">
                 <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PAYE - Leaderboard -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-0590369945323371"
-     data-ad-slot="9333130177"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                </div>
-            </div>
-            <!-- Adsense Desktop End -->
-            <!-- Adsense Mobi Start -->
-            <div class="panel panel-default hidden-md hidden-lg">
-                <div class="panel-body text-center">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PAYE - Mobi -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0590369945323371"
-     data-ad-slot="1809863375"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                  <!-- PAYE - Responsive -->
+                  <ins class="adsbygoogle"
+                       style="display:block"
+                       data-ad-client="ca-pub-0590369945323371"
+                       data-ad-slot="8869708491"
+                       data-ad-format="auto"
+                       data-full-width-responsive="true"></ins>
+                  <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
                 </div>
             </div>
             <!-- Adsense Mobi End -->
