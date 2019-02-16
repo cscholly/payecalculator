@@ -14,7 +14,7 @@
         <?php } ?>><a href="index.php">PAYE Calculator <span class="label label-info">Updated for 2019</a></a></li>
         <li <?php if ($page=='paye-information.php' ) { ?>class="active"
         <?php } ?>><a href="paye-information.php">Useful PAYE Information</a></li>
-        <li><a href="https://www.vatcalculator.co.za">Vist www.vatcalculator.co.za</a><span class="label label-info">Updated for 2019</a></li>
+        <li><a href="https://www.vatcalculator.co.za">VAT Calculator</a><span class="label label-info">Visit Site</a></li>
         <li><a href="mailto:help@payecalculator.co.za">Suggestions?</a></li>
     </ul>
 </div>
