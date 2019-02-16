@@ -44,7 +44,7 @@
                         <div class="panel-body">
                             <p>PAYE is the acronym for Pay-As-You-Earn. In essence it is the tax required to be deducted by the employer from the employee's renumeration.</p>
                             <p>Companies or employers who are registered (or required to register) with SARS for PAYE or SDL purposes, are also required to register for UIF purposes.</p>
-                            <a href="http://www.sars.gov.za/TaxTypes/PAYE/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS definition</a>
+                            <a href="http://www.sars.gov.za/TaxTypes/PAYE/Pages/default.aspx" class="btn btn-primary btn-sm" role="button" target="_blank">Official SARS Definition</a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                 </li> -->
             </ul>
             <div class="pull-right">
-                <a href="http://www.payecalculator.co.za/calculate-paye.php" class="btn btn-primary btn-sm" role="button">PAYE calculator</a>
+                <a href="http://www.payecalculator.co.za" class="btn btn-primary btn-sm" role="button">PAYE Calculator</a>
                 <a href="http://www.sars.gov.za" class="btn btn-primary btn-sm" role="button" target="_blank">For more tax information visit SARS.org.za</a>
             </div>
         </div>

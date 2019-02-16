@@ -8,30 +8,33 @@
     var nettoIncome = 0;
     var annualRebate = 0;
     var UIF = 0;
-    
+
         //tax bands
     var level1_bottom = 0;
-    var level1_top = 181900;
+    var level1_top = 195850;
     var level1_tax = 0.18;
-    var level2_bottom = 181901;
-    var level2_top = 284100;
+    var level2_bottom = 195851;
+    var level2_top = 305850;
     var level2_tax = 0.26;
-    var level3_bottom = 284101;
-    var level3_top = 393200;
+    var level3_bottom = 305851;
+    var level3_top = 423300;
     var level3_tax = 0.31;
-    var level4_bottom = 393201;
-    var level4_top = 550100;
+    var level4_bottom = 423301;
+    var level4_top = 555600;
     var level4_tax = 0.36;
-    var level5_bottom = 550101;
-    var level5_top = 701300;
+    var level5_bottom = 555601;
+    var level5_top = 708310;
     var level5_tax = 0.39;
-    var level6_bottom = 701301;
-    var level6_top = 99999999999;
+    var level6_bottom = 708311;
+    var level6_top = 1500000;
     var level6_tax = 0.41;
+    var level6_bottom = 1500001;
+    var level6_top = 99999900000;
+    var level6_tax = 0.45;
     var UIFcap = 148.72;
 
         //rebates
-    var annualRebatenderunder = 13257;
+    var annualRebatenderunder = 14067;
     var annualRebatenderbetween = (annualRebatenderunder + 71407);
     var annualRebatenderover = (annualRebatenderbetween + 2466);
 
@@ -53,9 +56,9 @@ for (var i = chosenAge.length; i--;) {
 function payeCalc(val) {
     //get form values
     monthlyIncome = document.getElementById('monthlyIncome').value;
-    
+
     annualRebate = val;
-    
+
  /*   if (chosenAge == 1){
         annualRebate = annualRebatenderunder;
     } else if (chosenAge == 2){
@@ -68,7 +71,7 @@ function payeCalc(val) {
     monthlyIncome = parseFloat(monthlyIncome);
     annualIncome = parseFloat(Math.round(monthlyIncome * 12));
     annualInc = parseFloat(Math.round(monthlyIncome * 12));
-    
+
     //calc paye
     if (annualInc > level1_bottom && annualInc < level1_top){
     annualTax = ((annualInc * level1_tax) - annualRebate);
