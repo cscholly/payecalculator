@@ -99,8 +99,7 @@
                 </div>
               </div>
             </div>
-            <!-- Adsense Desktop Start -->
-            <div class="panel panel-default hidden-xs hidden-sm">
+            <div class="panel panel-default">
               <div class="panel-body text-center">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- PAYE - Responsive -->
