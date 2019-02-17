@@ -115,8 +115,7 @@ function resetCalc() {
     document.getElementById('monthlyTax').innerHTML = 0;
     document.getElementById('annualTax').innerHTML = 0;
     document.getElementById('UIF').innerHTML = 0;
-
-
+    document.getElementById('nettoIncome').innerHTML = 0;
 }
 
 //currency formatting

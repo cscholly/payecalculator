@@ -118,11 +118,7 @@
     <!-- wrap end -->
 
     <!-- footer start -->
-    <footer class="footer">
-      <div class="container">
         <?php include ( 'includes/footer.php'); ?>
-      </div>
-    </footer>
     <!-- footer end -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
