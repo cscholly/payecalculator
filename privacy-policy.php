@@ -120,7 +120,7 @@
                   <p>This Web Site contains links to other sites. PAYE Calculator is not responsible for the privacy practices of these web sites.</p>
 
                   <p><b>GOOGLE ANALYTICS PAYE</b></p>
-                  <p>Calculator has actiPAYEed the Google Analytics features for Display Advertising including Remarketing, Google Display Network Impression Reporting, and Google Analytics Demographics and Interest Reporting. These features ensure that visitors only receive adverts relevant to them. Visitors can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Ads Settings or Google Analytics opt-out browser add-on PAYE Calculator uses Remarketing with Google Analytics to advertise online. Third-party vendors, including Google, show PAYE Calculator adverts on sites across the Internet. PAYE Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookie) and third-party cookies (such as the DoubleClick cookie) together to inform, optimize, and serve ads based on a visitor's past visits to websites. PAYE Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) together to report how the ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to the PAYE Calculator site.</p>
+                  <p>Calculator has activated the Google Analytics features for Display Advertising including Remarketing, Google Display Network Impression Reporting, and Google Analytics Demographics and Interest Reporting. These features ensure that visitors only receive adverts relevant to them. Visitors can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the Ads Settings or Google Analytics opt-out browser add-on PAYE Calculator uses Remarketing with Google Analytics to advertise online. Third-party vendors, including Google, show PAYE Calculator adverts on sites across the Internet. PAYE Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookie) and third-party cookies (such as the DoubleClick cookie) together to inform, optimize, and serve ads based on a visitor's past visits to websites. PAYE Calculator and third-party vendors, including Google, use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) together to report how the ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to the PAYE Calculator site.</p>
 
                   <p><b>GOOGLE DISCLAIMER</b></p>
                   <p>We use third-party advertising companies to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other website's in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, click here.</p>
@@ -131,17 +131,11 @@
     <!-- wrap end -->
 
     <!-- footer start -->
-    <footer class="footer">
-        <div class="container">
-            <?php include ( 'includes/footer.php'); ?>
-        </div>
-    </footer>
+        <?php include ( 'includes/footer.php'); ?>
     <!-- footer end -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 </body>
-
-
 </html>
