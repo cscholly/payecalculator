@@ -29,6 +29,11 @@ body > .container {
   margin: 20px 0;
 }
 
+.table > thead > tr:first-child > td,
+.table > tbody > tr:first-child > td {
+   border: none;
+}
+
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -37,4 +42,3 @@ body > .container {
 code {
   font-size: 80%;
 }
-
