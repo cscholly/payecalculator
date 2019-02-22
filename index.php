@@ -50,7 +50,6 @@
                         </label>
                       </div>
                       <div style="margin-top:10px">
-                        <button type="submit" class="btn btn-default" onclick="payeCalc(); return false;">Calculate Tax</button>
                         <button type="submit" class="btn btn-default" onclick="resetCalc(); return false;">Clear</button>
                       </div>
                     </div>
