@@ -16,19 +16,14 @@
 
     <?php include ( 'includes/header.php'); ?>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <?php include ( 'includes/menu.php'); ?>
-            <!--.nav-collapse -->
-        </div>
-    </nav>
+    <?php include ( 'includes/menu.php'); ?>
 
     <div id=wrap>
         <div class="container">
             <!-- News and Updates pop-up start -->
             <div class="alert alert-info alert-dismissible fade in" role="alert" style="margin-top:30px" ;>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <strong>New -</strong> You can now choose tax calculation by age bracket! <a href="https://www.payecalculator.co.za" class="alert-link">Try it now!</a>
+                <strong>New -</strong> Updated for 2018/2019 tax tables! <a href="https://www.payecalculator.co.za" class="alert-link">Try it now!</a>
             </div>
             <!-- News and Updates pop-up end -->
             <div class="page-header">
