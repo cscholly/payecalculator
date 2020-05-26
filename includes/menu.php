@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://www.payecalculator.co.za">PAYE Calculator for 2019</a>
+      <a class="navbar-brand" href="https://www.payecalculator.co.za">PAYE Calculator for 2020/2021</a>
     </div>
 
     <div class="collapse navbar-collapse">
