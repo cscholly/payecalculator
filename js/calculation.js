@@ -11,32 +11,32 @@
 
         //tax bands
     var level1_bottom = 0;
-    var level1_top = 195850;
+    var level1_top = 205900;
     var level1_tax = 0.18;
-    var level2_bottom = 195851;
-    var level2_top = 305850;
+    var level2_bottom = 205901;
+    var level2_top = 321600;
     var level2_tax = 0.26;
-    var level3_bottom = 305851;
-    var level3_top = 423300;
+    var level3_bottom = 321601;
+    var level3_top = 445100;
     var level3_tax = 0.31;
-    var level4_bottom = 423301;
-    var level4_top = 555600;
+    var level4_bottom = 445101;
+    var level4_top = 584200;
     var level4_tax = 0.36;
-    var level5_bottom = 555601;
-    var level5_top = 708310;
+    var level5_bottom = 584201;
+    var level5_top = 744800;
     var level5_tax = 0.39;
-    var level6_bottom = 708311;
-    var level6_top = 1500000;
+    var level6_bottom = 744801;
+    var level6_top = 1577300;
     var level6_tax = 0.41;
-    var level6_bottom = 1500001;
+    var level6_bottom = 1577301;
     var level6_top = 99999900000;
     var level6_tax = 0.45;
     var UIFcap = 148.72;
 
         //rebates
-    var annualRebatenderunder = 14067;
-    var annualRebatenderbetween = (annualRebatenderunder + 7713);
-    var annualRebatenderover = (annualRebatenderbetween + 2574);
+    var annualRebatenderunder = 14958;
+    var annualRebatenderbetween = (annualRebatenderunder + 8199);
+    var annualRebatenderover = (annualRebatenderbetween + 2736);
 
     //trigger payeCalc from 3 age brackets
 var chosenAge = document.getElementsByName('age');

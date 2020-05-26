@@ -8,18 +8,23 @@
 
 
 <url>
-  <loc>http://www.payecalculator.co.za/</loc>
-  <lastmod>2019-02-16T16:14:40+00:00</lastmod>
+  <loc>https://www.payecalculator.co.za/</loc>
+  <lastmod>2020-05-26T07:18:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.payecalculator.co.za/index.php</loc>
-  <lastmod>2019-02-16T16:14:40+00:00</lastmod>
+  <loc>https://www.payecalculator.co.za/index.php</loc>
+  <lastmod>2020-05-26T07:18:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.payecalculator.co.za/paye-information.php</loc>
-  <lastmod>2019-02-16T16:14:40+00:00</lastmod>
+  <loc>https://www.payecalculator.co.za/paye-information.php</loc>
+  <lastmod>2020-05-26T07:18:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.payecalculator.co.za/privacy-policy.php</loc>
+  <lastmod>2020-05-26T07:18:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
